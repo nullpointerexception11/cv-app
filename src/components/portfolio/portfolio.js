@@ -2,140 +2,140 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" class="page-section section appear clearfix secPad">
-    <div class="container">
+    <section id="portfolio" className="page-section section appear clearfix secPad">
+    <div className="container">
 
-        <div class="heading text-center">
+        <div className="heading text-center">
             <h2>Portfolio</h2>
             <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
         </div>
 
-        <div class="row">
-            <nav id="filter" class="col-md-12 text-center">
+        <div className="row">
+            <nav id="filter" className="col-md-12 text-center">
                 <ul>
-                    <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-                    <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
-                    <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-                    <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                    <li><a href="#" className="current btn-theme btn-small" data-filter="*">All</a></li>
+                    <li><a href="#" className="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+                    <li><a href="#" className="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                    <li><a href="#" className="btn-theme btn-small" data-filter=".print">Print</a></li>
                 </ul>
             </nav>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="portfolio-items isotopeWrapper clearfix" id="3">
+            <div className="col-md-12">
+                <div className="row">
+                    <div className="portfolio-items isotopeWrapper clearfix" id="3">
 
-                        <article class="col-sm-4 isotopeItem webdesign">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem webdesign">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img1.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img1.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img1.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem photography">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem photography">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img2.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img2.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img2.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
 
-                        <article class="col-sm-4 isotopeItem photography">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem photography">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img3.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img3.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img3.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem print">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem print">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img4.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img4.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img4.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem photography">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem photography">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img5.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img5.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img5.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem webdesign">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem webdesign">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img6.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img6.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img6.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem print">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem print">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img7.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img7.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img7.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem photography">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem photography">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img8.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img8.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img8.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </article>
 
-                        <article class="col-sm-4 isotopeItem print">
-                            <div class="portfolio-item">
+                        <article className="col-sm-4 isotopeItem print">
+                            <div className="portfolio-item">
                                 <img src="images/portfolio/img9.jpg" alt="" />
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <a href="images/portfolio/img9.jpg" class="fancybox">
+                                <div className="portfolio-desc align-center">
+                                    <div className="folio-info">
+                                        <a href="images/portfolio/img9.jpg" className="fancybox">
                                             <h5>Project Name</h5>
-                                            <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <i className="fa fa-arrows-alt fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
