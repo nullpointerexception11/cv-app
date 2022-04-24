@@ -1,213 +1,97 @@
 import React from "react";
+import SectionTitle from "../section-title/section-title";
+import ExperienceBox from "./experience-box";
+import TimelineBadge from "./timeline-badge";
 
 const Experience = () => {
   return (
-      
-    <section id="experience" class="secPad">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>Professional Experience</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-        </div>
+    <section id="experience" className="secPad">
+      <div className="container">
+        <SectionTitle
+          title="Professional Experience"
+          desc="Lorem ipsum dolor sit amet, consectetur adipiscing"
+        />
+
         <div id="timeline">
-          <div class="row timeline-movement timeline-movement-top">
-            <div class="timeline-badge timeline-future-movement">
+          <div className="row timeline-movement timeline-movement-top">
+            <div className="timeline-badge timeline-future-movement">
               <a href="#">
-                <span class="glyphicon glyphicon-plus"></span>
+                <span className="glyphicon glyphicon-plus"></span>
               </a>
             </div>
-            <div class="timeline-badge timeline-filter-movement">
+            <div className="timeline-badge timeline-filter-movement">
               <a href="#">
-                <span class="glyphicon glyphicon-time"></span>
+                <span className="glyphicon glyphicon-time"></span>
               </a>
             </div>
           </div>
-          <div class="row timeline-movement">
-            <div class="timeline-badge">
-              <span class="timeline-balloon-date-day">Feb</span>
-              <span class="timeline-balloon-date-month">2014</span>
-            </div>
+          <div className="row timeline-movement">
+            <TimelineBadge month="Feb" year="2014" />
 
-            <div class="col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-11">
-                  <div class="timeline-panel credits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            18/02/2014 - Present
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate="18/02/2014"
+              eDate="Present"
+              position="left"
+            />
 
-            <div class="col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-offset-1 col-sm-11">
-                  <div class="timeline-panel debits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            18/02/2014 - Present
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate=" 10/03/2013"
+              eDate="18/02/2014"
+              position="right"
+            />
+
+            
           </div>
 
-          <div class="row timeline-movement">
-            <div class="timeline-badge">
-              <span class="timeline-balloon-date-day">Mar</span>
-              <span class="timeline-balloon-date-month">2013</span>
-            </div>
+          <div className="row timeline-movement">
+            <TimelineBadge month="Mar" year="2013" />
 
-            <div class="col-sm-offset-6 col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-offset-1 col-sm-11">
-                  <div class="timeline-panel debits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            10/03/2013 - 18/02/2014
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-11">
-                  <div class="timeline-panel credits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            10/03/2013 - 18/02/2014
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate=" 10/03/2013"
+              eDate="18/02/2014"
+              position="left"
+              alone={true}
+            />
+
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate="18/02/2014"
+              eDate="Present"
+              position="right"
+            />
+
           </div>
-          <div class="row timeline-movement">
-            <div class="timeline-badge">
-              <span class="timeline-balloon-date-day">Jan</span>
-              <span class="timeline-balloon-date-month">2010</span>
-            </div>
+          <div className="row timeline-movement">
+            <TimelineBadge month="Jan" year="2010" />
 
-            <div class="col-sm-offset-6 col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-offset-1 col-sm-11">
-                  <div class="timeline-panel debits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            11/01/2010 - 10/03/2013
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6  timeline-item">
-              <div class="row">
-                <div class="col-sm-11">
-                  <div class="timeline-panel credits">
-                    <ul class="timeline-panel-ul">
-                      <li>
-                        <span class="importo">Mussum ipsum cacilds</span>
-                      </li>
-                      <li>
-                        <span class="causale">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <p>
-                          <small class="text-muted">
-                            {" "}
-                            11/01/2010 - 10/03/2013
-                          </small>
-                        </p>{" "}
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate="11/01/2010"
+              eDate="10/03/2013"
+              position="left"
+            />
+            <ExperienceBox
+              title="Mussum ipsum cacilds"
+              desc=" Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit."
+              sDate="11/01/2010"
+              eDate="10/03/2013"
+              position="right"
+            />
           </div>
         </div>
       </div>
